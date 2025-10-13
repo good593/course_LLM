@@ -21,7 +21,7 @@ def main(lst_dic:list[dict]):
         lst_info.append(video_info)
       except:
         pass
-      time.sleep(0.005)
+      time.sleep(0.05)
 
     df = pd.DataFrame(lst_info)
     file_name = save_path+dic_data['playlist_title']+".csv"

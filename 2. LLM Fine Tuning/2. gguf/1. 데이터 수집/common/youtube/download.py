@@ -23,7 +23,7 @@ def main(lst_dic:list[dict]):
     #########################################
     # 유튜브 url 수집
     #########################################
-    urls = [dic_data['url']]
+    urls = []
     urls.extend(
       get_video_urls(dic_data['url'])
     )

@@ -3,7 +3,7 @@ from tqdm.auto import tqdm
 import time
 
 from common.utils import mkdir
-from .youtube import get_video_urls, get_youtube_video_info
+from .youtube_info import get_video_urls, get_youtube_video_info
 
 def main(lst_dic:list[dict]):
   """ 유튜브를 통해서 켑션(자막) 정보를 수집하는 함수 

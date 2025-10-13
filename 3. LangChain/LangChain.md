@@ -19,6 +19,15 @@ paginate: true
 - LLM을 외부 지식, API, 데이터베이스와 연결
 - 복잡한 대화 흐름을 체인(Chain) 단위로 관리
 
+
+---
+## [LangChaing 장점](https://yongeekd01.tistory.com/92#google_vignette)
+- 언어모델 학습시 사용된 데이터 외에 새로운 사용자 데이터를 인식할 수 있게 함
+- 여러가지 LLM 언어모델을 선택적으로 사용할 수 있게 함
+- 능동적으로 다른 기능과 연동하여 추가적인 결과를 낼 수 있게 함
+- 여러 기능 모듈을 체인으로 연결하여 출력을 다른 툴의 입력으로 사용하는 방식으로 기능 확장이 자유로움
+- 라이브러리 wrap이 잘되어 있어서 구현이 상대적으로 편함(파이썬, 자바스크립트)
+
 ---
 # [1. LangChain 응용](https://velog.io/@kofsitho/Langchain-%ED%83%90%EC%83%89-%EA%B3%A0%EA%B8%89-%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC%EB%A5%BC-%ED%86%B5%ED%95%9C-AI-%ED%98%81%EC%8B%A0)
 - 인공지능(AI)이 산업과 일상생활을 빠르게 변화시키고 있는 세상에서 기술 발전의 선두에 선다는 것은 그 어느 때보다 중요합니다.
@@ -39,25 +48,22 @@ paginate: true
 | **Task Automation**                      | 워크플로우 자동화, 보고서 생성        |
 | **AI Agent**                             | 툴을 사용하여 목표를 스스로 달성하는 시스템 |
 
----
-# [2. LangChaing 장점](https://yongeekd01.tistory.com/92#google_vignette)
-- 언어모델 학습시 사용된 데이터 외에 새로운 사용자 데이터를 인식할 수 있게 함
-- 여러가지 LLM 언어모델을 선택적으로 사용할 수 있게 함
-- 능동적으로 다른 기능과 연동하여 추가적인 결과를 낼 수 있게 함
-- 여러 기능 모듈을 체인으로 연결하여 출력을 다른 툴의 입력으로 사용하는 방식으로 기능 확장이 자유로움
-- 라이브러리 wrap이 잘되어 있어서 구현이 상대적으로 편함(파이썬, 자바스크립트)
 
 ---
-![alt text](./img/image-1.png)
+### 1-1. Data Agent / Query Agent
+> DB, CSV, API 등을 자동 질의
+
+![w:900](./img/image-1.png)
 
 ---
-# [3. LangChain with Web Service](https://navan.ai/blog/what-is-langchain/)
+### [1-2. LangChain with Web Service](https://navan.ai/blog/what-is-langchain/)
+> 챗봇 웹 서비스 
+
+![bg right w:600](./img/image-2.png)
 
 ---
-![w:750](./img/image-2.png)
-
----
-# [4. RAG 프로세스 with LangChain](https://aws.amazon.com/ko/what-is/langchain/)
+### [1-3. RAG 프로세스 with LangChain](https://aws.amazon.com/ko/what-is/langchain/)
+> 외부 지식 기반 질의응답 시스템
 
 ![alt text](./img/image-3.png)
 

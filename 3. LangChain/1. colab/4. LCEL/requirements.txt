@@ -8,4 +8,4 @@ langchain-core==0.3.74 # LangChain 코어 기능
 langchain-community==0.3.27 # LangChain 커뮤니티 확장
 
 # 모델별 패키지
-langchain-groq==0.3.6 # Groq 모델 통합
+langchain-openai==0.3.8 # OpenAI 모델 통합

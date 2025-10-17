@@ -99,11 +99,17 @@ User Input → PromptTemplate → Model → OutputParser → Response
 
 ---
 # 7. LCEL (LangChain Expression Language)
-- LangChain 0.1 이후 도입된 체인 빌딩 문법
-- 체인을 함수형 문법으로 표현 가능
-- 복잡한 체인 구성을 단순하고 가독성 있게 정의
+- LCEL은 LangChain에서 **체인(Chain)** 을 선언적으로 구성하기 위한 언어입니다.
 
+---
+### 주요 특징
+- 선언적 구성: 작업의 순서와 흐름을 명시적으로 정의하여, 복잡한 로직을 간결하게 표현할 수 있습니다.
+- 파이프 연산자(|) 지원: Unix의 파이프처럼, 함수의 출력을 다음 함수의 입력으로 전달하여 체인을 구성합니다.
+
+---
+> 코드 예제 
 ```ini
 chain = prompt | llm | parser
 ```
+![alt text](./img/image-7.png)
 
